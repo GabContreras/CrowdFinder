@@ -5,7 +5,8 @@ document.getElementById("loginForm").addEventListener("submit", function (event)
     var username = document.getElementById("username").value;
     var password = document.getElementById("password").value;
 
-    // Aquí puedes hacer validaciones si lo necesitas
+     // Muestra un mensaje de éxito
+     alert('¡Se ha iniciado sesión con éxito!');
 
     // Redirigir a la página de inicio
     window.location.href = "Pages/inicio.html";
